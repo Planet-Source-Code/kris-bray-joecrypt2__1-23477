@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=JoeCrypt Setup
+
+
+[Package|JoeCrypt Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Proggies\Source\JoeCrypt2.0\Package
+
+[Package|JoeCrypt Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|JoeCrypt Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|JoeCrypt Setup|Files Found]
+
+[Package|JoeCrypt Setup|Files Released]
+
+[Package|JoeCrypt Setup|Missing Dependency Information]
+
+[Package|JoeCrypt Setup|Out-of-Date Dependency Information]
+
+[Package|JoeCrypt Setup|Files Added]
+
+[Package|JoeCrypt Setup|Files Removed]
+
+[Package|JoeCrypt Setup|Files In Project]
+C:\WINDOWS\Desktop\JoeCrypt.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|JoeCrypt Setup|Configure Registry Files]
+Applicable=No
+
+[Package|JoeCrypt Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|JoeCrypt Setup|Install Locations]
+C:\WINDOWS\Desktop\JoeCrypt.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|JoeCrypt Setup|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\JoeCrypt.exe=No
+
+[Package|JoeCrypt Setup|Distribution]
+Type=single
+Size=
+Title=JoeCrypt 2.0
+
+[Package|JoeCrypt Setup|IconGroups]
+Group0=JoeCrypt 2.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|JoeCrypt Setup|JoeCrypt 2.0]
+Icon1=JoeCrypt.exe
+Title1=JoeCrypt 2.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|JoeCrypt Setup|Package]
+PackageFolder=D:\Proggies\Source\JoeCrypt2.0\Package
+ProjectFolder=D:\Proggies\Source\JoeCrypt2.0
+ServerSideCab=
+File1=D:\Proggies\Source\JoeCrypt2.0\Package\setup.exe
+File2=D:\Proggies\Source\JoeCrypt2.0\Package\Setup.Lst
+File3=D:\Proggies\Source\JoeCrypt2.0\Package\JoeCrypt.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
